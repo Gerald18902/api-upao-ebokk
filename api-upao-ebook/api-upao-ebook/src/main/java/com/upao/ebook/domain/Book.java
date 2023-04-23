@@ -26,8 +26,10 @@ public class Book {     //En singular
     private String description;
     @Column(name= "image_url", nullable = false)
     private String imageUrl;
+    /*
     @Column(name= "created_at")
     private LocalDateTime createdAt;
     @Column(name= "update_at")
     private LocalDateTime updateAt;
+    */
 }
